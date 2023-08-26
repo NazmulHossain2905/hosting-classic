@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--MD-Sons);
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.d-f {
+  display: flex;
+}
+.f-d-r {
+  flex-direction: row;
+}
+.f-w-w {
+  flex-wrap: wrap;
+}
+.f-d-c {
+  flex-direction: column;
+}
+.j-c-c {
+  justify-content: center;
+}
+.j-c-s-b {
+  justify-content: space-between;
+}
+.j-c-s-a {
+  justify-content: space-around;
+}
+.a-i-c {
+  align-items: center;
+}
+.a-i-f-s {
+  align-items: flex-start;
+}
+.a-i-f-e {
+  align-items: flex-end;
+}
+.t-a-c {
+  text-align: center;
+}
